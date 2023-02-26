@@ -1,0 +1,68 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light_gray: hsl(212, 45%, 89%);
+    --Grayish_blue: hsl(220, 15%, 55%);
+    --Dark_blue: hsl(218, 44%, 22%);
+
+    --font-family: 'Outfit', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/** Globales **/
+body {
+    font-size: 1.6rem; 
+    background-color: var(--Light_gray);
+}
+
+img {
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor{
+    display: grid;
+    place-items: center;
+    width: 120rem;
+    height: 70rem;
+    margin: 0 auto;    
+}
+
+.contenidoQR {
+    background-color: var(--White);
+    width: 40rem;
+    height: 65rem;
+    border-radius: 2rem; 
+}
+
+.contenidoQR img{
+    padding: 2rem;
+    border-radius: 3rem; 
+}
+
+.attribution{
+    font-family: var(--font-family);
+    text-align: center;
+    color: var(--Grayish_blue);
+}
+.text{
+    padding: 0 2rem;
+    font-family: var(--font-family);
+    font-size: 2rem;
+    text-align: center;
+    color: var(--Grayish_blue);
+}
+h1{
+    font-size: 3rem;
+    color: var(--Dark_blue);    
+}
