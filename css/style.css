@@ -23,19 +23,18 @@ body {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 a{
     text-decoration: none;
 }
 
-.contenedor{
+.contenedor {
+    max-width: 120rem;
+    margin: 5% auto;    
     display: grid;
-    place-items: center;
-    width: 120rem;
-    height: 70rem;
-    margin: 0 auto;    
+    place-items: center;  
 }
 
 .contenidoQR {
